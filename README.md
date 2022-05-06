@@ -1,2 +1,2 @@
-# razielalon.github.io
-the website that will teach me
+# first
+this is a nice one with jquery
