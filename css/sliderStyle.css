@@ -1,0 +1,66 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:'Arial', sans-serif;
+	font-size:14px;
+	color:#fff;
+	background:#333;
+	line-height:1.6em;
+	box-sizing: border-box;
+}
+
+header{
+	margin: 1%;
+	padding: 1%;
+}
+h1{
+	text-align: center;
+}
+
+#slider{
+	
+	width: 96%;
+	height: 73vh;
+	padding: 1%;
+	margin: auto;
+	border: #fff solid 3px;
+}
+.slide{
+	position: absolute;
+    margin: auto;
+    width: 96%;
+    
+}
+.slide img{
+	position:absolute;
+	display: inline-block;
+	margin-left: 4.5%;
+	width: 90%;
+}
+.slide-copy{
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 4;
+	margin-left: 4.5%;
+}
+#next{
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	
+	right: 2%;
+	cursor: pointer;
+	
+}
+#prev{
+	position: absolute;
+	display: inline-block;
+	z-index: 1;
+	
+	left: 2%;
+	cursor: pointer;
+}	
+
